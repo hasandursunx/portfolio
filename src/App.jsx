@@ -1,12 +1,11 @@
-
 import './App.css'
-
+import Layout from './layout/layout'
 function App() {
 
   return (
-    <>
-      new branch added
-    </>
+    <div>
+      <Layout />
+    </div>
   )
 }
 
