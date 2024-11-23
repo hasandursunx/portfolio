@@ -5,7 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 export default function Project({ project }) {
     console.log()
     return (
-        <div className="animate-slide animate-duration-500">
+        <div>
             <div className="bg-black rounded-md p-2 cursor-pointer transition-all duration-300">
                 <img className="rounded-lg" src={`/projects/${project.image}.png`} alt="" />
             </div>
