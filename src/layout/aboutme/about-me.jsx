@@ -1,9 +1,9 @@
 export default function AboutMe() {
     return (
-        <div className="bg-white shadow-lg w-full rounded-lg p-10 flex items-center space-x-10 relative">
-            <div className="min-w-48 min-h-48 rounded-full relative  ">
+        <div className="bg-white shadow-lg w-full rounded-lg p-10 flex items-center space-x-10 relative ">
+            <div className="min-w-48 min-h-48 rounded-full relative overflow-hidden">
                 <div className="absolute left-0 top-0 w-48 h-48  border-gray-600 border-[2px]  border-dashed animate-spin-2  rounded-full " />
-                <img className="w-48 h-48 p-1 rounded-full object-contain" src="/avatar.png" alt="" />
+                <img className="w-48 h-48 p-1 rounded-full object-contain  animate-fade-up animate-duration-1000 " src="/avatar.png" alt="" />
             </div>
             <div className="flex-1 ">
                 <h2 className="text-5xl font-bebas relative mb-1 tracking-wider mt-5
