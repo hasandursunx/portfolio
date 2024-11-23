@@ -11,6 +11,7 @@ import Experiences from './experiences/experiences'
 export default function Layout() {
     return (
         <div className='container mx-auto'>
+
             <Header />
             <main className='flex space-x-10 '>
                 <div className='w-[300px]  '>
@@ -26,6 +27,7 @@ export default function Layout() {
                     <Experiences />
                     <Contact />
                     <Footer />
+
                 </div>
             </main>
         </div>

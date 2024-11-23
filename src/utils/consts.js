@@ -26,3 +26,12 @@ export const projects = [
 
     }
 ]
+
+export const latestVideos = [
+    {
+        image: 'thumbnail-1'
+    },
+    {
+        image: 'thumbnail-2'
+    }
+]
