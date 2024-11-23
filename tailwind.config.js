@@ -9,6 +9,8 @@ export default {
       animation: {
         "infinite-scroll": "infinite-scroll 20s linear infinite",
         "spin-2": "spin-2 100s linear infinite",
+        "show": "show 0.1s linear ",
+        "slide": "slide 0.1s linear ",
       },
       keyframes: {
         "infinite-scroll": {
@@ -17,9 +19,20 @@ export default {
         },
         "spin-2": {
           to: { transform: "rotate(360deg)" }
-        }
+        },
+        "show": {
+          from: { transform: "translateY(100%)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" }
+        },
+        "slide": {
+          from: { transform: "translateX(100%)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" }
+        },
       }
 
+    },
+    duration: {
+      '2000': 2000,
     },
     container: {
       screens: {
@@ -38,6 +51,10 @@ export default {
       "mulish": ["Mulish", 'sans-serif'],
     }
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animation-delay"),
+    require("tailwindcss-animate"),
+    require('tailwindcss-animated')
+  ],
 }
 
