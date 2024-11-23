@@ -9,3 +9,7 @@ body {
 .nav {
     @apply text-xl text-white flex items-center justify-center
 }
+
+.project {
+    @apply text-base h-10 flex items-center justify-center py-1 text-gray-800
+}

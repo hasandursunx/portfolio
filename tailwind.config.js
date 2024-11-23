@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+        "spin-2": "spin-2 100s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translate(0)" },
+          to: { transform: "translateX(-100%)" }
+        },
+        "spin-2": {
+          to: { transform: "rotate(360deg)" }
+        }
+      }
+
+    },
     container: {
       screens: {
         sm: '475px',
