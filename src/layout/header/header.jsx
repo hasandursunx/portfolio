@@ -4,8 +4,8 @@ export default function Header() {
             <div>
                 <h1 className="text-7xl font-bebas my-5">HASAN DURSUN</h1>
             </div>
-            <div className="bg-gray-400 flex-1">
-                linkler
+            <div className=" flex-1">
+
             </div>
         </div>
     )
