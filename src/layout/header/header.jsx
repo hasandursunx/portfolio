@@ -23,7 +23,7 @@ export default function Header() {
                 <a href="#"><FaLinkedin size="full" className="size-5 lg:size-7 hover:scale-110 transition-all mt-2 text-gray-900 " /></a>
                 <a href="#"><FaSquareInstagram size="full" className="size-5 lg:size-7  hover:scale-110 transition-all mt-2 text-gray-900 " /></a>
                 <a href="#"><IoLogoYoutube size="full" className="size-5 lg:size-7 hover:scale-110 transition-all mt-2 text-gray-900 " /></a>
-                <div className="bg-gray-900 h-9 lg:h-11 px-1 flex items-center cursor-pointer rounded-br-md rounded-bl-md hover:bg-gray-800">
+                <div className="bg-gray-900 ml-2 lg:ml-0  h-9 lg:h-11 px-1 flex items-center cursor-pointer rounded-br-md rounded-bl-md hover:bg-gray-800">
                     <FaMoon size="full" className="text-gray-200 size-4 lg:size-7 " />
                 </div>
             </div>

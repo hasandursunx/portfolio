@@ -3,8 +3,8 @@ export default function AboutMe() {
         <div className="
         bg-white shadow-lg w-full rounded-lg relative
         p-8 lg:p-10 
-        block items-center  lg:flex
-        space-y-10 lg:space-y-0
+        flex flex-col items-center  lg:flex
+        space-y-2 lg:space-y-0
         space-x-0 lg:space-x-10 
          ">
             <div className=" 
@@ -17,18 +17,19 @@ export default function AboutMe() {
                 w-32 h-32 lg:w-48 lg:h-48
                 " src="/avatar.png" alt="" />
             </div>
-            <div className="lg:flex-1">
+            <div className="lg:flex-1 flex flex-col justify-center items-center">
                 <h2 className=" 
                 font-bebas relative mb-1 tracking-wider mt-5
                 text-4xl lg:text-5xl
-                after:tracking-wider after:content-['Juniour'] after:font-pattaya after:text-gray-800 after:absolute 
+                after:tracking-wider after:content-['Juniour'] after:font-pattaya after:text-black after:absolute 
                 after:-left-2 after:-top-[16px] 
                 lg:after:-left-2.5 lg:after:-top-[22px] 
-                after:text-xl lg:after:text-2xl ">Frontend Developer</h2>
+                after:text-xl lg:after:text-2xl 
+                ">Frontend Developer</h2>
                 <p className=" 
                 font-mulish text-gray-700
-                lg:pr-10
-                 text-sm lg:text-base ">Eğitim hayatım açtığınız pozisyonun gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim.</p>
+                lg:pr-1 xl:pr-10 2xl:pr-20
+                text-sm lg:text-base text-justify  break-words ">Eğitim hayatım açtığınız pozisyonun gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim.</p>
             </div>
         </div>
     )
