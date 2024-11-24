@@ -24,7 +24,7 @@ export default function Navbar() {
         text-gray-300 bg-black
         flex-row lg:flex-col
         lg:space-x-0 
-        text-[14px] sm:text-[16px] md:text-[22px] lg:text-[27px]
+        text-[17px] sm:text-[20px] md:text-[22px] lg:text-[27px]
         sm:py-3 lg:py-5 py-2 lg:px-10
         
         `
