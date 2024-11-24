@@ -10,7 +10,7 @@ import Experiences from './experiences/experiences'
 
 export default function Layout() {
     return (
-        <div className='container  mx-4 sm:mx-auto '>
+        <div className='container  mx-auto px-4 sm:px-0 '>
 
             <Header />
             <main className=' flex flex-col 
@@ -21,7 +21,7 @@ export default function Layout() {
                 w-full lg:w-[300px] 
                 
                 '>
-                    <div className='lg:space-y-10 w-full lg:w-[300px] sticky top-10  '>
+                    <div className='lg:space-y-10 w-full lg:w-[300px] lg:sticky lg:top-10  '>
                         <Navbar />
                         <LatestVideos />
                     </div>
