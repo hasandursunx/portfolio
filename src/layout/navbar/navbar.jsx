@@ -24,7 +24,7 @@ export default function Navbar() {
         flex-row lg:flex-col
          lg:space-x-0 
         text-[14px] sm:text-[16px] md:text-[22px] lg:text-[27px]
-        py-3 lg:py-5 px-10
+        py-1 sm:py-3 lg:py-5 px-10
          
         ">
             <a href="#aboutme" className="flex items-center "
