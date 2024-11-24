@@ -16,9 +16,10 @@ export default function Layout() {
             <main className=' flex flex-col 
             lg:flex-row space-x-0 lg:space-x-10 
             '>
-                <div className='w-full lg:w-[300px] sticky top-0 z-50 lg:block '>
+                <div className='w-full lg:w-[300px] sticky top-0 z-50 lg:block'>
                     <div className='lg:space-y-10 w-full lg:w-[300px] lg:sticky lg:top-10'>
                         <Navbar />
+
                         <LatestVideos />
                     </div>
                 </div>
