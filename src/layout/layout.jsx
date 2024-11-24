@@ -10,11 +10,17 @@ import Experiences from './experiences/experiences'
 
 export default function Layout() {
     return (
-        <div className='container mx-auto'>
+        <div className='container  mx-4 sm:mx-auto '>
 
             <Header />
-            <main className=' flex flex-col lg:flex-row space-x-0 lg:space-x-10 '>
-                <div className='w-full  lg:w-[300px] '>
+            <main className=' flex flex-col 
+            lg:flex-row space-x-0 lg:space-x-10 
+            '>
+                <div className='
+                
+                w-full lg:w-[300px] 
+                
+                '>
                     <div className='lg:space-y-10 w-full lg:w-[300px] sticky top-10  '>
                         <Navbar />
                         <LatestVideos />

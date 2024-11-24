@@ -14,7 +14,7 @@ export default function Header() {
                 <h1
                     className="
                     font-bebas
-                    text-5xl lg:text-6xl 2xl:text-7xl  
+                    text-4xl sm:text-5xl lg:text-6xl 2xl:text-7xl  
                     my-0 lg:my-4 2xl:my-5
                     ">HASAN DURSUN</h1>
             </div>
