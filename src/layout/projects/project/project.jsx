@@ -6,8 +6,8 @@ export default function Project({ project }) {
     console.log()
     return (
         <div>
-            <div className="bg-black rounded-md p-2 cursor-pointer transition-all duration-300">
-                <img className="rounded-lg" src={`/projects/${project.image}.png`} alt="" />
+            <div className="bg-black w-full h-40  rounded-md p-2 cursor-pointer transition-all duration-300">
+                <img className=" w-full h-full  rounded-lg object-cover " src={`/projects/${project.image}.png`} alt="" />
             </div>
             <div className="flex flex-col  text-black  pl-2 py-2  ">
                 <div className="my-1">

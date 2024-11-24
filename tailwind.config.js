@@ -36,11 +36,11 @@ export default {
     },
     container: {
       screens: {
-        sm: '475px',
-        md: '690px',
-        lg: '984px',
-        xl: '1140px',
-        '2xl': '1320px',
+        sm: '470px',
+        md: '650px',
+        lg: '900px',
+        xl: '1200px',
+        '2xl': '1400px',
       }
     },
     fontFamily: {
