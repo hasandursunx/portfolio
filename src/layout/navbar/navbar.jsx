@@ -32,23 +32,23 @@ export default function Navbar() {
         >
             <a href="#aboutme" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas  tracking-widest ${link === 'aboutme' ? 'underline  text-white ' : ''}`}>About Me</div>
+                <div className={`font-bebas tracking-normal lg:tracking-widest ${link === 'aboutme' ? 'underline  text-white ' : ''}`}>About Me</div>
             </a>
             <a href="#skills" className="flex items-center  "
                 onClick={gets}>
-                <div className={`font-bebas  tracking-widest ${link === 'skills' ? 'underline text-white' : ''}`}>Skills</div>
+                <div className={`font-bebas  tracking-normal lg:tracking-widest ${link === 'skills' ? 'underline text-white' : ''}`}>Skills</div>
             </a>
             <a href="#projects" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas  tracking-widest ${link === 'projects' ? 'underline text-white' : ''}`}>Projects</div>
+                <div className={`font-bebas  tracking-normal lg:tracking-widest ${link === 'projects' ? 'underline text-white' : ''}`}>Projects</div>
             </a>
             <a href="#experiences" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas  tracking-widest ${link === 'experiences' ? 'underline text-white' : ''}`}>Experiences</div>
+                <div className={`font-bebas  tracking-normal lg:tracking-widest ${link === 'experiences' ? 'underline text-white' : ''}`}>Experiences</div>
             </a>
             <a href="#contact" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas  tracking-widest ${link === 'contact' ? 'underline text-white' : ''}`}>Contact</div>
+                <div className={`font-bebas  tracking-normal lg:tracking-widest ${link === 'contact' ? 'underline text-white' : ''}`}>Contact</div>
             </a>
         </nav>
     )
