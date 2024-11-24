@@ -17,7 +17,7 @@ export default function Contact() {
             </h2>
 
             <div className=" block lg:flex">
-                <div className="flex flex-col lg:justify-center space-y-10 pl-10">
+                <div className="flex flex-col lg:justify-center space-y-10 pl-0 lg:pl-10">
                     <div className="flex items-center text-xl font-bold">
                         <CiLocationOn size={30} className="mr-2 text-gray-600" />
                         <span className="font-thin text-gray-600">ISTANBUL / TURKIYE</span>
@@ -35,15 +35,15 @@ export default function Contact() {
                     <h6 className=" text-gray-600 mt-20 mb-10 lg:mt-0 text-xl font-bold">SEND MESSAGE</h6>
                     <form className=" flex flex-col gap-5 w-full lg:w-[400px] ">
                         <label >
-                            <div className=" mb-1 text-xl font-mulish text-gray-600">Full Name : </div>
+                            <div className=" mb-1 text-lg lg:text-xl font-mulish text-gray-600">Full Name : </div>
                             <input type="text" className=" font-thin text-xl w-full h-10 pl-2 text-gray-600  outline-none border" />
                         </label>
                         <label >
-                            <div className="mb-1 w-full text-xl font-mulish text-gray-600">Email: </div>
+                            <div className="mb-1 w-full text-lg lg:text-xl font-mulish text-gray-600">Email: </div>
                             <input type="text" className=" font-thin text-xl w-full h-10 pl-2 text-gray-600  outline-none border" />
                         </label>
                         <label >
-                            <div className="mb-1 text-xl font-mulish text-gray-600">Message : </div>
+                            <div className="mb-1 text-lg lg:text-xl font-mulish text-gray-600">Message : </div>
                             <textarea rows="4" cols="50" className=" font-thin text-xl w-full p-2 text-gray-600  outline-none border" />
                         </label>
                         <div className="flex  justify-center">
