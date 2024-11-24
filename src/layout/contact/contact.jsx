@@ -10,9 +10,9 @@ import { PiWhatsappLogoThin } from "react-icons/pi";
 export default function Contact() {
     return (
         <div id="contact" className="bg-white shadow-lg w-full rounded-lg px-10 py-5 overflow-hidden ">
-            <h2 className='mb-6 font-bold font-roboto  text-4xl group  flex items-center tracking-tighter'>
+            <h2 className='mb-6 font-bold font-roboto text-2xl lg:text-4xl group  flex items-center tracking-tighter'>
 
-                <BiSolidContact size={33} className='mr-2 group-hover:animate-wiggle ' />
+                <BiSolidContact className='size-6 lg:size-8 mr-2 group-hover:animate-wiggle ' />
                 Contact Me
             </h2>
 
