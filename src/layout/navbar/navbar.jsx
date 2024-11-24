@@ -18,13 +18,13 @@ export default function Navbar() {
 
     return (
         <nav className="
-        flex  rounded-lg 
+        flex  rounded-full lg:rounded-lg
         justify-center items-stretch gap-3 lg:items-start
         text-gray-300 bg-black
         flex-row lg:flex-col
-         lg:space-x-0 
+        lg:space-x-0 
         text-[14px] sm:text-[16px] md:text-[22px] lg:text-[27px]
-        py-1 sm:py-3 lg:py-5 px-10
+        sm:py-3 lg:py-5 py-2 lg:px-10
          
         ">
             <a href="#aboutme" className="flex items-center "

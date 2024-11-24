@@ -16,8 +16,8 @@ export default function Contact() {
                 Contact Me
             </h2>
 
-            <div className="flex">
-                <div className="flex flex-col  justify-center space-y-10 pl-10">
+            <div className=" block lg:flex">
+                <div className="flex flex-col lg:justify-center space-y-10 pl-10">
                     <div className="flex items-center text-xl font-bold">
                         <CiLocationOn size={30} className="mr-2 text-gray-600" />
                         <span className="font-thin text-gray-600">ISTANBUL / TURKIYE</span>
@@ -32,8 +32,8 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="flex flex-col flex-1  items-center justify-center  ">
-                    <h6 className=" text-gray-600 mb-10 text-xl font-bold">SEND MESSAGE</h6>
-                    <form className=" flex flex-col gap-5 w-[400px] ">
+                    <h6 className=" text-gray-600 mt-20 mb-10 lg:mt-0 text-xl font-bold">SEND MESSAGE</h6>
+                    <form className=" flex flex-col gap-5 w-full lg:w-[400px] ">
                         <label >
                             <div className=" mb-1 text-xl font-mulish text-gray-600">Full Name : </div>
                             <input type="text" className=" font-thin text-xl w-full h-10 pl-2 text-gray-600  outline-none border" />
