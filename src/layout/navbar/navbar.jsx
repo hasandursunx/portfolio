@@ -17,7 +17,8 @@ export default function Navbar() {
 
 
     return (
-        <nav className="
+        <nav className={
+            `
         flex  rounded-full lg:rounded-lg
         justify-center items-stretch gap-3 lg:items-start
         text-gray-300 bg-black
@@ -25,8 +26,10 @@ export default function Navbar() {
         lg:space-x-0 
         text-[14px] sm:text-[16px] md:text-[22px] lg:text-[27px]
         sm:py-3 lg:py-5 py-2 lg:px-10
-         
-        ">
+        
+        `
+        }
+        >
             <a href="#aboutme" className="flex items-center "
                 onClick={gets}>
                 <div className={`font-bebas  tracking-widest ${link === 'aboutme' ? 'underline  text-white ' : ''}`}>About Me</div>
