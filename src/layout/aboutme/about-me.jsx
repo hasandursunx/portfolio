@@ -1,14 +1,34 @@
 export default function AboutMe() {
     return (
-        <div className="bg-white shadow-lg w-full rounded-lg p-10 flex items-center space-x-10 relative">
-            <div className="min-w-48 min-h-48 rounded-full relative  ">
-                <div className="absolute left-0 top-0 w-48 h-48  border-gray-600 border-[2px]  border-dashed animate-spin-2  rounded-full " />
-                <img className="w-48 h-48 p-1 rounded-full object-contain" src="/avatar.png" alt="" />
+        <div className="
+        bg-white shadow-lg w-full rounded-lg relative
+        p-8 lg:p-10 
+        block items-center  lg:flex
+        space-y-10 lg:space-y-0
+        space-x-0 lg:space-x-10 
+         ">
+            <div className=" 
+            rounded-full relative overflow-hidden
+            min-w-32 min-h-32 lg:min-w-48 lg:min-h-48
+            ">
+                <div className="absolute left-0 top-0 w-32 h-32 lg:w-48 lg:h-48  border-gray-600 border-[2px]  border-dashed animate-spin-2  rounded-full " />
+                <img className="
+                p-1 rounded-full object-contain animate-fade-up animate-duration-1000
+                w-32 h-32 lg:w-48 lg:h-48
+                " src="/avatar.png" alt="" />
             </div>
-            <div className="flex-1 ">
-                <h2 className="text-5xl font-bebas relative mb-1 tracking-wider mt-5
-                after:tracking-wider after:content-['Juniour'] after:font-pattaya after:text-gray-800 after:absolute after:-left-2.5 after:-top-[22px] after:text-2xl">Frontend Developer</h2>
-                <p className="pr-10 font-mulish text-justify text-gray-700">Eğitim hayatım açtığınız pozisyonun gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim.</p>
+            <div className="lg:flex-1">
+                <h2 className=" 
+                font-bebas relative mb-1 tracking-wider mt-5
+                text-4xl lg:text-5xl
+                after:tracking-wider after:content-['Juniour'] after:font-pattaya after:text-gray-800 after:absolute 
+                after:-left-2 after:-top-[16px] 
+                lg:after:-left-2.5 lg:after:-top-[22px] 
+                after:text-xl lg:after:text-2xl ">Frontend Developer</h2>
+                <p className=" 
+                font-mulish text-gray-700
+                lg:pr-10
+                 text-sm lg:text-base ">Eğitim hayatım açtığınız pozisyonun gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim.</p>
             </div>
         </div>
     )

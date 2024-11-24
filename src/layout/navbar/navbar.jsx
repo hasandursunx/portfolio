@@ -17,26 +17,33 @@ export default function Navbar() {
 
 
     return (
-        <nav className="bg-black rounded-lg space-y-3 py-5 px-10 text-gray-300  ">
+        <nav className="
+        flex  rounded-lg 
+        justify-center items-stretch gap-3 lg:items-start
+        text-gray-300 bg-black
+        flex-row lg:flex-col
+         lg:space-x-0 
+        text-[16px] md:text-[22px] lg:text-[27px]
+        py-3 lg:py-5 px-10   ">
             <a href="#aboutme" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas text-[27px] tracking-widest ${link === 'aboutme' ? 'underline  text-white ' : ''}`}>About Me</div>
+                <div className={`font-bebas  tracking-widest ${link === 'aboutme' ? 'underline  text-white ' : ''}`}>About Me</div>
             </a>
             <a href="#skills" className="flex items-center  "
                 onClick={gets}>
-                <div className={`font-bebas text-[27px] tracking-widest ${link === 'skills' ? 'underline text-white' : ''}`}>Skills</div>
+                <div className={`font-bebas  tracking-widest ${link === 'skills' ? 'underline text-white' : ''}`}>Skills</div>
             </a>
             <a href="#projects" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas text-[27px] tracking-widest ${link === 'projects' ? 'underline text-white' : ''}`}>Projects</div>
+                <div className={`font-bebas  tracking-widest ${link === 'projects' ? 'underline text-white' : ''}`}>Projects</div>
             </a>
             <a href="#experiences" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas text-[27px] tracking-widest ${link === 'experiences' ? 'underline text-white' : ''}`}>Experiences</div>
+                <div className={`font-bebas  tracking-widest ${link === 'experiences' ? 'underline text-white' : ''}`}>Experiences</div>
             </a>
             <a href="#contact" className="flex items-center "
                 onClick={gets}>
-                <div className={`font-bebas text-[27px] tracking-widest ${link === 'contact' ? 'underline text-white' : ''}`}>Contact</div>
+                <div className={`font-bebas  tracking-widest ${link === 'contact' ? 'underline text-white' : ''}`}>Contact</div>
             </a>
         </nav>
     )

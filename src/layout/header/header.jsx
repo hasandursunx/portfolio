@@ -9,11 +9,16 @@ import { FaMoon } from "react-icons/fa";
 export default function Header() {
 
     return (
-        <div id="aboutme" className="flex">
-            <div>
-                <h1 className="text-7xl font-bebas my-5">HASAN DURSUN</h1>
+        <div id="aboutme" className="flex flex-col  lg:flex-row">
+            <div className="order-2 lg:order-1">
+                <h1
+                    className="
+                    font-bebas
+                    text-5xl lg:text-6xl 2xl:text-7xl  
+                    my-0 lg:my-4 2xl:my-5
+                    ">HASAN DURSUN</h1>
             </div>
-            <div className=" flex-1 flex gap-3  justify-end">
+            <div className="lg:order-2 flex-1 flex gap-3  justify-end">
                 <a href="#"><FaSquareGithub size={30} className="hover:scale-110 transition-all mt-2 text-gray-900 " /></a>
                 <a href="#"><FaLinkedin size={30} className="hover:scale-110 transition-all mt-2 text-gray-900 " /></a>
                 <a href="#"><FaSquareInstagram size={30} className="hover:scale-110 transition-all mt-2 text-gray-900 " /></a>

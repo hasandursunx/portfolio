@@ -13,14 +13,17 @@ export default function Layout() {
         <div className='container mx-auto'>
 
             <Header />
-            <main className='flex space-x-10 '>
-                <div className='w-[300px]  '>
-                    <div className='space-y-10 w-[300px] sticky top-10  '>
+            <main className=' flex flex-col lg:flex-row space-x-0 lg:space-x-10 '>
+                <div className='w-full  lg:w-[300px] '>
+                    <div className='lg:space-y-10 w-full lg:w-[300px] sticky top-10  '>
                         <Navbar />
                         <LatestVideos />
                     </div>
                 </div>
-                <div className='flex-1 space-y-6'>
+                <div className='
+                flex-1 space-y-6 
+                mt-5 lg:mt-0 
+                '>
                     <AboutMe />
                     <Skills />
                     <Projects />
