@@ -9,7 +9,7 @@ export default function AboutMe() {
          ">
             <div className=" 
             rounded-full relative overflow-hidden
-            min-w-32 min-h-32 lg:min-w-48 lg:min-h-48
+            w-32 h-32 lg:min-w-48 lg:min-h-48
             ">
                 <div className="absolute left-0 top-0 w-32 h-32 lg:w-48 lg:h-48  border-gray-600 border-[2px]  border-dashed animate-spin-2  rounded-full " />
                 <img className="
