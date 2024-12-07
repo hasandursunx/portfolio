@@ -1,15 +1,22 @@
 import { BiSolidContact } from "react-icons/bi";
-import { MdOutlineMail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 import { PiWhatsappLogoThin } from "react-icons/pi";
+import { motion } from "motion/react"
 
 
 
 
 export default function Contact() {
+
     return (
-        <div id="contact" className="bg-white shadow-lg w-full rounded-lg px-10 py-5 overflow-hidden ">
+        <motion.div
+
+            initial={{ x: 20, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
+
+
+            id="contact" className="bg-white dark:bg-gray-100 shadow-lg w-full rounded-lg px-10 py-5 overflow-hidden " >
             <h2 className='mb-6 font-bold font-roboto text-2xl lg:text-4xl group  flex items-center tracking-tighter'>
 
                 <BiSolidContact className='size-6 lg:size-8 mr-2 group-hover:animate-wiggle ' />
@@ -52,6 +59,6 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-        </div>
+        </motion.div >
     )
 }

@@ -9,7 +9,6 @@ import LatestVideos from './latest-videos/latest-videos'
 import Experiences from './experiences/experiences'
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 
-
 export default function Layout() {
 
     return (

@@ -6,7 +6,7 @@ import { TiTick } from "react-icons/ti";
 
 export default function Experiences() {
     return (
-        <div id='experiences' className="bg-white shadow-lg w-full rounded-lg px-7 lg:px-10 py-5 overflow-hidden ">
+        <div id='experiences' className="bg-white dark:bg-gray-100 shadow-lg w-full rounded-lg px-7 lg:px-10 py-5 overflow-hidden ">
             <h2 className='mb-6 font-bold font-roboto  text-2xl lg:text-4xl group  flex items-center tracking-tighter'>
 
                 <MdWorkspacePremium className='size-6 lg:size-9 mr-0 lg:mr-2 group-hover:animate-wiggle ' />
