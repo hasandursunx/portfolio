@@ -1,7 +1,7 @@
 export default function AboutMe() {
     return (
         <div className="
-        bg-white shadow-lg w-full rounded-lg relative
+        bg-white dark:bg-gray-100 shadow-lg w-full rounded-lg relative
         p-8 lg:p-10 
         flex flex-col lg:flex-row lg:items-start items-center  
         space-y-2 lg:space-y-4
@@ -9,17 +9,17 @@ export default function AboutMe() {
          ">
             <div className=" 
             rounded-full relative overflow-hidden
-            w-32 h-32 lg:min-w-48 lg:min-h-48
+            w-32 h-32 lg:min-w-48 lg:min-h-48 
             ">
                 <div className="absolute left-0 top-0 w-32 h-32 lg:w-48 lg:h-48  
                 border-gray-600 border-[2px]  border-dashed animate-spin-2  rounded-full " />
                 <img className="
-                p-1 rounded-full object-contain animate-fade-up animate-duration-1000
-                w-32 h-32 lg:w-48 lg:h-48
+                p-1 rounded-full object-cover 
+                w-full h-full 
                 " src="/avatar.png" alt="" />
             </div>
             <div className="lg:flex-1 flex flex-col justify-center items-center lg:block">
-                <h2 className=" 
+                <h2 className="
                 font-bebas relative mb-1 tracking-wider mt-5
                 text-4xl lg:text-5xl
                 after:tracking-wider after:content-['Juniour'] after:font-pattaya after:text-black after:absolute 

@@ -1,19 +1,13 @@
-import { TiHtml5 } from "react-icons/ti";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa6";
-import { FaFigma } from "react-icons/fa";
 import { LiaSass } from "react-icons/lia";
 import { MdOutlineCss } from "react-icons/md";
 import { MdOutlineHtml } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
-import { TbBrandTypescript } from "react-icons/tb";
-import { MdOutlineJavascript } from "react-icons/md";
-
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
 import { PiFigmaLogoThin } from "react-icons/pi";
 
-import { SiTypescript } from "react-icons/si";
 
 
 
@@ -21,7 +15,7 @@ import { SiTypescript } from "react-icons/si";
 
 export default function skills() {
     return (
-        <div id="skills" className="w-full  rounded-lg  flex items-center justify-center space-x-2 sm:space-x-8 lg:space-x-12 overflow-hidden">
+        <div id="skills" className="w-full dark:text-gray-100   rounded-lg  flex items-center justify-center space-x-2 sm:space-x-8 lg:space-x-12 overflow-hidden">
             <MdOutlineHtml className="  animate-show  animate-duration-[0.4s] hover:scale-110 transition-transform duration-200" size={80} />
             <MdOutlineCss height={40} className="animate-show  animate-duration-[0.5s] hover:scale-110 transition-transform duration-200" size={80} />
             <LiaSass height={40} className="animate-show  animate-duration-[0.6s] hover:scale-110 transition-transform duration-200" size={65} />
