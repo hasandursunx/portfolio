@@ -29,17 +29,17 @@ export default function Header() {
 
 
     return (
-        <div id="aboutme" className="flex flex-col lg:flex-row">
-            <div className="order-2 lg:order-1">
+        <div id="aboutme" className="flex flex-row">
+            <div className="mt-3 lg:mt-0">
                 <h1
                     className="
                     font-bebas
                     text-4xl sm:text-5xl lg:text-6xl 2xl:text-7xl  
-                    ml-4 -mt-6 mb-1 lg:my-4 2xl:my-5
+                    ml-4  lg:ml-0 mb-1 lg:my-4 2xl:my-3
                     dark:text-gray-100
                     ">HASAN DURSUN</h1>
             </div>
-            <div className="lg:order-2 flex-1 flex gap-1 lg:gap-3  justify-end">
+            <div className=" flex-1 flex gap-1 lg:gap-3  justify-end">
                 <a href={socialMediaLinks.github} target="_blank"><FaSquareGithub size="full" className="size-5 lg:size-7 hover:scale-110 transition-all mt-2 text-gray-900 dark:text-gray-100" /></a>
                 <a href={socialMediaLinks.linkedin} target="_blank"><FaLinkedin size="full" className="size-5 lg:size-7 hover:scale-110 transition-all mt-2 text-gray-900 dark:text-gray-100" /></a>
                 <a href={socialMediaLinks.instagram} target="_blank"><FaSquareInstagram size="full" className="size-5 lg:size-7  hover:scale-110 transition-all mt-2 text-gray-900 dark:text-gray-100" /></a>

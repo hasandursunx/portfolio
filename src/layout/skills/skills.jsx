@@ -15,7 +15,7 @@ import { PiFigmaLogoThin } from "react-icons/pi";
 
 export default function skills() {
     return (
-        <div id="skills" className="w-full dark:text-gray-100   rounded-lg  flex items-center justify-center space-x-2 sm:space-x-8 lg:space-x-12 overflow-hidden">
+        <div id="skills" className="w-full dark:text-gray-100 rounded-lg  flex items-center justify-center  space-x-2 sm:space-x-8 lg:space-x-12 overflow-hidden">
             <MdOutlineHtml className="  animate-show  animate-duration-[0.4s] hover:scale-110 transition-transform duration-200" size={80} />
             <MdOutlineCss height={40} className="animate-show  animate-duration-[0.5s] hover:scale-110 transition-transform duration-200" size={80} />
             <LiaSass height={40} className="animate-show  animate-duration-[0.6s] hover:scale-110 transition-transform duration-200" size={65} />

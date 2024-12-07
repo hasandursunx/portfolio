@@ -4,11 +4,11 @@
 
 @layer base {
     html {
-        @apply scroll-smooth overflow-x-hidden;
+        @apply scroll-smooth max-w-full overflow-x-hidden;
     }
 
     body {
-        @apply bg-gray-50 dark:bg-gray-800 transition-colors duration-500;
+        @apply bg-gray-50 max-w-full dark:bg-gray-800 transition-colors duration-500 overflow-x-hidden;
     }
 }
 
