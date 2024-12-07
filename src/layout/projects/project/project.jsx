@@ -12,7 +12,7 @@ export default function Project({ project }) {
             <div className="flex flex-col  text-black  pl-2 py-2  ">
                 <div className="my-1">
                     <h2 className="text-lg tracking-wide font-mulish font-bold ">{project.name}</h2>
-                    <p className="text-sm  text-gray-500">Bu uygulamanın bir tane açıklaması olacakki buda bu açıklamadır.</p>
+                    <p className="text-sm  text-gray-500">...</p>
                 </div>
                 <div className="flex items-center justify-between  mt-2">
                     <div className="flext items-center justify-center space-x-1 truncate pr-4">

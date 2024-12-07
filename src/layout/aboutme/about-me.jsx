@@ -30,8 +30,8 @@ export default function AboutMe() {
                 <p className=" 
                 font-mulish text-gray-700
                 lg:pr-1 xl:pr-10 2xl:pr-20
-                text-sm lg:text-base text-justify  break-words ">Eğitim hayatım açtığınız pozisyonun gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim.</p>
+                text-sm lg:text-base text-justify  break-words ">Hello, I do not hesitate to research new technologies and try them in my projects. I start each project with the same care and finish it with excitement. Even in my free time, I think and dream about my next project.</p>
             </div>
-        </div>
+        </div >
     )
 }

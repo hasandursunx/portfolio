@@ -4,25 +4,30 @@ export const projects = [
         description: 'test',
         image: 'highfive',
         builtWith: ['CSS', 'Express.js', 'MongoDb'],
-        bgColor: '#000'
+        bgColor: '#000',
+        liveLink: 'https://github.com/hasandursunx/highfive',
+        githubLink: 'https://github.com/hasandursunx/highfive',
 
     },
     {
         name: 'Lifeel',
         description: 'test',
         image: 'lifeel',
-        builtWith: ['Express.js', 'Javascript'],
-        bgColor: '#ffbb00'
-
+        builtWith: ['CSS', 'Javascript', 'Figma'],
+        bgColor: '#ffbb00',
+        liveLink: 'https://github.com/hasandursunx/lifeel',
+        githubLink: 'https://github.com/hasandursunx/lifeel',
 
     }
     ,
     {
-        name: 'Lifeel',
+        name: 'Portfolio',
         description: 'test',
         image: 'lifeel',
-        builtWith: ['React', 'Javascript', 'CSS'],
-        bgColor: '#2aff00'
+        builtWith: ['React', 'Tailwind', 'Zustand'],
+        bgColor: '#2aff00',
+        liveLink: 'https://hasandursun.vercel.app/',
+        githubLink: 'https://github.com/hasandursunx/portfolio',
 
     }
 ]

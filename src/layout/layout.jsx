@@ -8,13 +8,23 @@ import Footer from './footer/footer'
 import LatestVideos from './latest-videos/latest-videos'
 import Experiences from './experiences/experiences'
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
+import { useEffect } from 'react'
+import { useWindowScroll } from 'react-use';
+import { useScrollStore } from '../store/useScrollStore'
 
 export default function Layout() {
+
+    const { y } = useWindowScroll();
+    const { isScroll, setScroll } = useScrollStore();
+
+    useEffect(() => {
+        setScroll(y, window.innerHeight)
+    }, [y])
+
 
     return (
 
         <div className='container  mx-auto px-4 sm:px-0 '>
-
             <Header />
             <main className=' flex flex-col 
             lg:flex-row space-x-0 lg:space-x-10 
@@ -39,7 +49,12 @@ export default function Layout() {
 
                 </div>
             </main>
-            <a href='#aboutme' className='fixed lg:hidden bottom-14 right-4 text-gray-500/30 hover:text-gray-500/50 '><BsFillArrowUpSquareFill className='size-8' /></a>
+            {
+                isScroll && (
+
+                    <a href='#aboutme' className='fixed lg:hidden bottom-14 right-4 text-gray-500/30 hover:text-gray-500/50 '><BsFillArrowUpSquareFill className='size-8' /></a>
+                )
+            }
         </div>
     )
 }

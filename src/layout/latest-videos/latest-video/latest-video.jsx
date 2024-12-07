@@ -1,7 +1,6 @@
 import { RiExternalLinkLine } from "react-icons/ri";
 
 export default function LatestVideo({ latestVideo }) {
-    console.log(latestVideo)
     return (
         <div className="w-full relative  flex flex-col items-center justify-center rounded-lg  shadow-2xl overflow-hidden">
             <a href="#" className="w-full h-full absolute top-0 left-0   hover:bg-black flex group items-center justify-center">
