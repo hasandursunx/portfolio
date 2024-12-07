@@ -35,7 +35,7 @@ export default function Header() {
                     className="
                     font-bebas
                     text-4xl sm:text-5xl lg:text-6xl 2xl:text-7xl  
-                    my-0 lg:my-4 2xl:my-5
+                    ml-4 -mt-6 mb-1 lg:my-4 2xl:my-5
                     dark:text-gray-100
                     ">HASAN DURSUN</h1>
             </div>
